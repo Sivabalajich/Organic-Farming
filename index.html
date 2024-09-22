@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <script src="footer.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.jpg">
+            </div>
+            <div class="tagline">
+                <h1>ORGANIC FARMING</h1>
+                <h5>రైతే రాజు...</h5>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="schemes.html">Schemes</a></li>
+                    <li><a href="aboutus.html">AboutUs</a></li>
+                    <li><a href="#foot">ContactUs</a></li>
+                </ul>
+            </div>
+        </div>
+        <marquee direction="left">
+            <h3>సేంద్రీయ వ్యవసాయ రైతులు మీకు స్వాగతం పలుకుతున్నారు..ఈ వెబ్‌సైట్ సమాచారం వార్తాపత్రికలు, కథనాలు, శాస్త్రీయ ఆధారాలు మరియు ఇంటర్నెట్ మొదలైన అనేక ఫ్లాట్‌ఫారమ్‌ల నుండి సేకరిస్తోంది...
+                </h3><br>
+            <h3>organic farming farmers welcomes to you..This website  information  is gathering from so many flatforms like newspapers  ,articles ,scientific proves and internet etc...
+
+                </h3>
+        </marquee>
+        <hr><hr>
+        <div class="container2">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="schemes.jpg"></div>
+                  <div class="swiper-slide"><img src="pesticide.jpg"></div>
+                  <div class="swiper-slide"><img src="organic.jpeg"></div>
+                  <div class="swiper-slide"><img src="img1.jpg"></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+
+        </div>
+        <script>const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            // And if we need scrollbar
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+          });
+          </script>
+        <div class="container3">
+            <div class="box1">
+               <button> <a href="explore.html"><h1>Explore....</h1></a></button>
+            </div>
+
+        </div>
+    </body>
+    <footer  id="foot">
+        <footer-component></footer-component>
+    </footer>
+</html>
